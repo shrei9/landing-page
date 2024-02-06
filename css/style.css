@@ -17,7 +17,7 @@ a {
 }
 
 .header,
-.footer {
+footer {
     padding-top: 15px;
     background-color: #1f2937;
 }
@@ -68,19 +68,18 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
-    word-wrap: wrap;
     margin-bottom: 5px;
 }
 
-button {
-    margin-top: 5px;
+.signup {
+    cursor: pointer;
+    margin-top: 8px;
     border-style: none;
     color: #fff;
     background-color: #3882F6;
-    height: 40px;
-    width: 120px;
     border-radius: 10px;
-    flex: 0 0 auto;
+    height: 45px;
+    padding: 0 45px;
 }
 
 img {
@@ -92,6 +91,7 @@ img {
 /* random-info */
 
 .random-info {
+    margin-top: 50px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -103,18 +103,19 @@ h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 800;
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 50px 0px;
 }
 
 .images {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 125px;
+    align-items: center;
     text-align: center;
 }
 
 .columned {
-    width: 250px;
+    width: 150px;
     min-height: 0px;
     display: flex;
     align-items: center;
@@ -139,7 +140,7 @@ h2 {
     align-items: center;
     background-color: #e5e7eb;
     padding-top: 50px;
-    padding-bottom: 50px
+    padding-bottom: 50px;
 }
 
 .container {
@@ -153,11 +154,61 @@ h2 {
 .thor-said {
     font-size: 36px;
     font-weight: 300;
-    font-style: italic;
+    font-style: oblique;
     color: #1F2937;
 }
 
 .author {
-    font-weight: 700;
+    font-weight: 800;
     align-self: flex-end;
+}
+
+/* CALL TO ACTION */
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+}
+
+.action-container {
+    background-color: #3882F6;
+    margin: 75px 0px 75px 0px;
+    padding: 50px 200px 50px 200px;
+    border-radius: 5px;
+}
+
+.container-interior {
+    display: flex;
+    justify-content: space;
+    align-items: center;
+    gap: 100px;
+}
+
+h4 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.right>.signup {
+    padding: 5px 30px 5px 30px;
+    display: inline-block;
+    border: 2px solid #fff;
+    font-size: 14px;
+    height: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.left>p {
+    color: #e5e7eb;
+}
+
+footer {
+    text-align: center;
+    color: #e5e7eb;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
